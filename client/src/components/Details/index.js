@@ -87,7 +87,7 @@ class Details extends Component {
             <small>
               website
             </small>
-            <a href={this.state.book.website} target="_blank">{this.state.book.website}</a>
+            <a href={this.state.book.website} target="_blank" rel="noopener noreferrer">{this.state.book.website}</a>
           </div>
 
           <div className="info">

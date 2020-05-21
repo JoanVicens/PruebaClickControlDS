@@ -19,7 +19,8 @@ class AddBook extends Component {
       description: '',
       website: '',
       category: '',
-      bookCreated: ''
+      bookCreated: '',
+      // files: []
     }
 
     this.handleChange = this.handleChange.bind(this);
@@ -58,7 +59,7 @@ class AddBook extends Component {
     }
 
     return (
-      <div className="container mt-4">
+      <div className="container mt-4 mb-4">
       <form onSubmit={ this.handleSubmit }>
         <div className="form-group">
           <label htmlFor="isbn">ISBN</label>
