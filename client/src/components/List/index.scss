@@ -1,0 +1,26 @@
+.header svg {
+  fill: #282c34 !important;
+}
+.book {
+  padding: 20px;
+  margin-bottom: 10px;
+  border-bottom: 3px dashed #282c34;
+  display: flex;
+  flex-direction: column;
+  color: #282c34;
+  .title {
+    margin-bottom: 20px;
+  }
+  .actions {
+    display: inline-block;
+    padding-top: 4em;
+    margin-top: auto;
+    margin-right: 20px;
+    a {
+      color: #fff !important;
+      &:hover {
+        text-decoration: none !important;
+      }
+    }
+  }
+}

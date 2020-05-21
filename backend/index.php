@@ -16,16 +16,14 @@
 <form action="/api/" method="post" enctype="multipart/form-data">
   <input type="text" name="isbn" value="01"/>
   <input type="text" name="title" value="test"/>
+  <input type="hidden" name="action" value="insert">
     <table width="100%">
         <tr>
             <td>Select Photo (one or multiple):</td>
             <td><input type="file" name="images[]" multiple/></td>
         </tr>
         <tr>
-            <td colspan="2" align="center">Note: Supported image format: .jpeg, .jpg, .png, .gif</td>
-        </tr>
-        <tr>
-            <td colspan="2" align="center"><input type="submit" value="Create Gallery" id="selectedButton"/></td>
+            <td colspan="2" align="center"><input type="submit" value="Add book"/></td>
         </tr>
     </table>
 </form>

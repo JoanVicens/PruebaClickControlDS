@@ -1,0 +1,34 @@
+.book-header {
+  padding-bottom: 15px;
+  border-bottom: 3px dashed #282c34;
+}
+.info {
+  margin-top: 15px;
+  font-size: 1.25em;
+  small {
+    display: block;
+    text-transform: capitalize;
+  }
+}
+
+
+.category {
+  padding: 3px 9px;
+  border-radius: .2em;
+  background-color: #ccc;
+  margin-top: 10px;
+}
+
+.Classic {
+  background-color: #dcc;
+}
+.Fantasy {
+  background-color: #eec;
+}
+.Drama {
+  background-color: #fcc;
+}
+.Suspense {
+  background-color: #888;
+  color: #eee;
+}
